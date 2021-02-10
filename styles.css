@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: #272727;
+    font-family: "system-ui";
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+h1{
+    color: rgb(186, 186, 207);
+}
+h3{
+    color:rgb(109, 203, 206);
+    position:absolute;
+    top: 0;
+}
+a{
+    color: rgb(218, 146, 13);
+}
+#main-container {
+    display: flex;
+    align-items: baseline;
+}
+#main-container>div {
+    margin: 10px 50px 10px 50px;
+}
+.anchor{
+    display: none;
+}
+.eight{
+    display: none;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container>.container {
+    display: none;
+}
+#btn{
+    position: absolute;
+    margin: 10px;
+    right: 0;
+    bottom: 0;
+}
